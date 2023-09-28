@@ -80,7 +80,7 @@ export class AuthService {
   }
 
   remove(id: number) {
-    return `This action removes a #${id} auth`;
+    return `This action removes a #${id} auth` ;
   }
 
   getJWT(payload: JwtPayload){
